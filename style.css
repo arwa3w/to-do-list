@@ -1,0 +1,31 @@
+body
+{
+    background-color: rgb(7, 78, 116);
+}
+span,
+label
+{
+    color: #cfd596;
+}
+.card
+{
+    background-color: rgb(46, 127, 185);
+}
+.none
+{
+    display: none;
+}
+.trash
+{
+    color: #cfd596;
+    font-size: 25px;
+    margin-top: 9px;
+    float: right;
+    cursor: pointer;
+}
+.checked
+{
+    color: white !important;
+    font-size: 25px;
+    text-decoration: line-through;
+}

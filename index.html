@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>To Do List</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="bootstrap.css">
+    <!-- Css Link -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="text-info text-center fw-bold display-3 my-4">T<span>o</span> D<span>o</span> Lis<span>t</span></h1>
+    <div class="container col-md-5">
+        <div class="card">
+            <div class="card-body text-center">
+                <div class="form-group">
+                    <label for="" class=" fs-5">Add Task</label>
+                    <input type="text" id="inputTask" class="form-control my-3 text-center bg-info" placeholder="Here...">
+                    <button class="btn btn-info form-control my-2" id="btnCreate">Create Task</button>
+                    <h5 id="hNoTasks" class="text-danger fs-6 my-2 none">Please Enter Your Task</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+    <h1 class="text-info text-center fw-bold display-4 my-4">List <span>O</span>f Tasks</h1>
+    <div class="container col-md-5">
+        <div class="card">
+            <div class="card-body text-center">
+                <div id="allTasks"></div>
+                <div class="alert text-center fw-bold bg-info text-primary" id="noTasks">
+                    N<span>O</span> Have Tasks
+                </div>
+                <button class="btn mt-3" id="deleteAllTasks" style="background-color: #cfd596;">Delete All</button>
+                <h6 class="text-info fs-5 mt-3">Number <span>O</span>f Tasks <span id="numOfTasks">0</span></h6>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/9992a75c8c.js" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+</html>
